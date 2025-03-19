@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news/UI/Category/Category_Details.dart';
 
 import 'package:news/UI/Home/Home_Screen.dart';
 import 'package:news/utils/App_theme.dart';
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
       } ,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: ThemeMode.light,
+      themeMode: ThemeMode.dark,
     );
   }
 }

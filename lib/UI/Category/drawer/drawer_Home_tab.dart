@@ -31,6 +31,7 @@ class DrawerWidget extends StatelessWidget {
         InkWell(
             onTap: () {
               onDrawerRowClick();
+
             },
             child: CustomRow(
                 text: "Go To Home", iconImagePath: AssetsManager.IconHome)),
