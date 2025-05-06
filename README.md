@@ -26,6 +26,7 @@ A simple and clean Flutter News Application that displays the latest news articl
 - ✅ Pagination (Load more articles as you scroll)
 - ✅ Read full articles inside the app using WebView
 - ✅ Error handling and loading indicators
+- ✅ State management using **BLoC**
 - ✅ Responsive and modern UI
 
 ## 🧱 Tech Stack
@@ -35,6 +36,8 @@ A simple and clean Flutter News Application that displays the latest news articl
 - **Hive**: Local storage (NoSQL database)
 - **HTTP**: For making API requests
 - **WebView Flutter**: To view articles in-app
+- **Flutter BLoC**: For state management
+
 - **Clean Architecture**: Separation of concerns between layers (Presentation, Domain, Data)
 
 ## 🧩 Project Structure (Clean Architecture)
