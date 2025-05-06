@@ -1,44 +1,26 @@
-# news
+📱 Flutter News App Overview
+🚀 Features & Technologies Used
 
-A new Flutter project.
+✅ Clean Architecture Structure
+Built using a clean code approach to ensure scalability, readability, and separation of concerns across layers.
 
-## Getting Started
+✅ HTTP Requests & News API Integration
+Fetched news articles from an online API using the http package, supporting both general headlines and category-based filtering.
 
-This project is a starting point for a Flutter application.
+✅ State Management with Cubit (Bloc)
+Handled UI and business logic efficiently using Cubit for state management, ensuring a responsive and reactive user interface.
 
-A few resources to get you started if this is your first Flutter project:
+✅ Pagination & Debouncing
+Implemented pagination to load news articles incrementally and used debouncing to avoid excessive API calls, improving app performance.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+✅ Offline Storage with Hive
+Stored fetched news locally using the Hive package to allow users to access articles even without an internet connection.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# 📰 News App
+✅ Optimized Image Loading
+Used cached_network_image to efficiently load and cache article images, enhancing performance and reducing bandwidth usage.
 
-A simple and clean Flutter News Application that displays the latest news articles using a public API. The app supports both online and offline modes by caching data locally using Hive. The architecture follows the Clean Architecture principles for better scalability and maintainability.
+✅ Network Status Handling with connectivity_plus
+Monitored internet connection status in real-time using connectivity_plus to dynamically manage offline and online states.
 
-## 📱 Features
-
-- ✅ Fetch latest news from a remote API
-- ✅ Local data caching with Hive for offline reading
-- ✅ Clean and modular codebase following Clean Architecture
-- ✅ Pagination (Load more articles as you scroll)
-- ✅ Read full articles inside the app using WebView
-- ✅ Error handling and loading indicators
-- ✅ State management using **BLoC**
-- ✅ Responsive and modern UI
-
-## 🧱 Tech Stack
-
-- **Flutter**: UI Toolkit
-- **Dart**: Programming language
-- **Hive**: Local storage (NoSQL database)
-- **HTTP**: For making API requests
-- **WebView Flutter**: To view articles in-app
-- **Flutter BLoC**: For state management
-
-- **Clean Architecture**: Separation of concerns between layers (Presentation, Domain, Data)
-
-## 🧩 Project Structure (Clean Architecture)
-
+✅ In-App WebView
+Displayed full news articles within the app using WebView, providing users with a seamless reading experience without leaving the app.
